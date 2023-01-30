@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 
 *{
     margin: 0;
@@ -18,4 +18,81 @@ body{
     font-size: 4.5rem;
     color: #13273E;
     margin: 2rem 0 3rem;
+}
+
+button{
+    font-family: 'Inter', sans-serif;
+    font-size: 1.8rem;
+    font-weight: bolder;
+    border: none;
+    border-radius: 10%;
+    border: solid 2px #13273E;
+    width: 12rem;
+    height: 12rem;
+    margin: 2rem;
+}
+
+button:hover{
+    cursor: pointer;
+    border: solid 2px white;
+    transition-duration: 250ms;
+}
+
+button:active{
+    border: solid 4px white;
+}
+
+.omgb{
+    background-image: url("../Images/omgb.jpg");
+    color: white;
+    background-size: cover;
+}
+
+.augghh{
+    background-image: url("../Images/augghh.png");
+    background-size: cover;
+    color: white;
+}
+
+.hellNaw{
+    background-image: url("../Images/hellNaw.png");
+    background-size: cover;
+    color: white;
+}
+
+.samsung{
+    background-image: url("../Images/samsung.jpeg");
+    background-size: cover;
+    color: black;
+}
+
+.ohio{
+    background-image: url("../Images/ohioTarkibi.png");
+    background-size: cover;
+    color: white;
+}
+
+.wth{
+    background-image: url("../Images/wth.png");
+    background-size: cover;
+    color: white;
+}
+
+.nokia{
+    background-image: url("../Images/nokia.png");
+    background-size: cover;
+    color: black;
+}
+
+.slipping{
+    background-image: url("../Images/slipping.png");
+    background-size: cover;
+    color: black;
+}
+
+#footer{
+    font-family: 'Inter', sans-serif;
+    font-weight: bolder;
+    color: #13273E;
+    margin: 4.5rem auto 0.5rem;
 }
