@@ -90,6 +90,12 @@ button:active{
     color: black;
 }
 
+.shutcho{
+    background-image: url("../Images/shutcho.png");
+    background-size: cover;
+    color: white;
+}
+
 #footer{
     font-family: 'Inter', sans-serif;
     font-weight: bolder;
