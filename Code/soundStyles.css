@@ -34,7 +34,7 @@ button{
 
 button:hover{
     cursor: pointer;
-    border: solid 2px white;
+    border: solid 3px white;
     transition-duration: 250ms;
 }
 
@@ -54,13 +54,13 @@ button:active{
     color: white;
 }
 
-.hellNaw{
+.hellNah{
     background-image: url("../Images/hellNaw.png");
     background-size: cover;
     color: white;
 }
 
-.samsung{
+.android{
     background-image: url("../Images/samsung.jpeg");
     background-size: cover;
     color: black;

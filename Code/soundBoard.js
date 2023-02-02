@@ -1,0 +1,56 @@
+var path = "../Sounds/";
+const android = new Audio(path + "android.mp3");
+const augghh = new Audio(path + "augghh.mp3");
+const slowAugh = new Audio (path + "slowAugh.mp3")
+const hellNah = new Audio(path + "hellNah.mp3");
+const nokia = new Audio(path + "nokia.mp3");
+const omgb = new Audio(path + "omgb.mp3");
+const shutcho = new Audio(path + "shutcho.mp3");
+const slipping = new Audio(path + "slipping.mp3");
+const tarkibi = new Audio(path + "tarkibi");
+const wth = new Audio(path + "wth.mp3");
+
+document.getElementsByClassName("android")[0].addEventListener("click", function(){
+    android.play();
+});
+
+document.getElementsByClassName("augghh")[0].addEventListener("click", function(){
+    // var chance = Math.round(Math.random());
+    // if (chance == 0){
+    //     augghh.play();
+    //     console.log(chance);
+    // }
+    // else{
+    //     slowAugh.play();
+    //     console.log(chance);
+    // }
+    slowAugh.play();
+});
+
+document.getElementsByClassName("hellNah")[0].addEventListener("click", function(){
+    hellNah.play();
+});
+
+document.getElementsByClassName("nokia")[0].addEventListener("click", function(){
+    nokia.play();
+});
+
+document.getElementsByClassName("ohio")[0].addEventListener("click", function(){
+    ohio.play();
+});
+
+document.getElementsByClassName("omgb")[0].addEventListener("click", function(){
+    omgb.play();
+});
+
+document.getElementsByClassName("shutcho")[0].addEventListener("click", function(){
+    shutcho.play();
+});
+
+document.getElementsByClassName("slipping")[0].addEventListener("click", function(){
+    slipping.play();
+});
+
+document.getElementsByClassName("wth")[0].addEventListener("click", function(){
+    wth.play();
+});
