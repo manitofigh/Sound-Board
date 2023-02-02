@@ -5,10 +5,13 @@ const slowAugh = new Audio (path + "slowAugh.mp3")
 const hellNah = new Audio(path + "hellNah.mp3");
 const nokia = new Audio(path + "nokia.mp3");
 const omgb = new Audio(path + "omgb.mp3");
+const ohio = new Audio(path + "ohio.mp3")
 const shutcho = new Audio(path + "shutcho.mp3");
 const slipping = new Audio(path + "slipping.mp3");
 const tarkibi = new Audio(path + "tarkibi");
 const wth = new Audio(path + "wth.mp3");
+const resetButton = document.querySelector('.reset');
+
 
 document.getElementsByClassName("android")[0].addEventListener("click", function(){
     android.play();
@@ -54,3 +57,7 @@ document.getElementsByClassName("slipping")[0].addEventListener("click", functio
 document.getElementsByClassName("wth")[0].addEventListener("click", function(){
     wth.play();
 });
+
+resetButton.addEventListener('click', function() { //Stop all (Refreshes the page)
+    location.reload();
+  });

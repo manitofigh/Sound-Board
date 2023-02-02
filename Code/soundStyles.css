@@ -20,25 +20,25 @@ body{
     margin: 2rem 0 3rem;
 }
 
-button{
+.sound-buttons{
     font-family: 'Inter', sans-serif;
     font-size: 1.8rem;
     font-weight: bolder;
     border: none;
     border-radius: 10%;
     border: solid 2px #13273E;
-    width: 12rem;
-    height: 12rem;
-    margin: 2rem;
+    width: 11rem;
+    height: 11rem;
+    margin: 1rem 2rem 2rem;
 }
 
-button:hover{
+.sound-buttons:hover{
     cursor: pointer;
     border: solid 3px white;
     transition-duration: 250ms;
 }
 
-button:active{
+.sound-buttons:active{
     border: solid 4px white;
 }
 
@@ -96,9 +96,44 @@ button:active{
     color: white;
 }
 
+.reset{
+    font-family: 'Inter', sans-serif;
+    display: block;
+    background-color: aliceblue;
+    width: 7rem;
+    height: 3rem;
+    margin: 2rem auto 0;
+    font-size: 1.4rem;
+    border: solid 2px #13273E;
+    border-radius: 10px;
+}
+
+.reset:hover{
+    cursor: pointer;
+    background-color: red;
+    color: aliceblue;
+    border-color: aliceblue;
+    transition-duration: 0.3s;
+}
+
 #footer{
     font-family: 'Inter', sans-serif;
     font-weight: bolder;
     color: #13273E;
-    margin: 4.5rem auto 0.5rem;
+    margin: 4rem auto 0.5rem;
+}
+
+@media (max-width: 800px){
+
+    .sound-buttons{
+        font-family: 'Inter', sans-serif;
+        font-size: 1.8rem;
+        font-weight: bolder;
+        border: none;
+        border-radius: 10%;
+        border: solid 2px #13273E;
+        width: 8rem;
+        height: 8rem;
+        margin: 1rem 1.4rem 2rem;
+    }
 }
