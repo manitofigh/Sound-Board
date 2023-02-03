@@ -64,7 +64,7 @@ function resetSound(item){
     item.currentTime = 0;
 }
 
-resetButton.addEventListener('click', function() {
+resetButton.addEventListener('click', function() { // Loops through all sounds and resets them
     // location.reload(); (Reloads the page)
     for (var i of audiosArray){
         resetSound(i);
