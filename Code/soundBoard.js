@@ -64,18 +64,8 @@ function resetSound(item){
     item.currentTime = 0;
 }
 
-resetButton.addEventListener('click', function() { //Stop all (Refreshes the page)
-    // location.reload();
-    // resetSound(android);
-    // resetSound(augghh);
-    // resetSound(hellNah);
-    // resetSound(nokia);
-    // resetSound(ohio);
-    // resetSound(omgb);
-    // resetSound(shutcho);
-    // resetSound(slipping);
-    // resetSound(slowAugh);
-    // resetSound(wth);
+resetButton.addEventListener('click', function() {
+    // location.reload(); (Reloads the page)
     for (var i of audiosArray){
         resetSound(i);
     }
