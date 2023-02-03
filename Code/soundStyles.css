@@ -116,6 +116,12 @@ body{
     transition-duration: 0.3s;
 }
 
+.reset:active{
+    width: 6.9rem;
+    height: 2.9rem;
+    transition-duration: 100ms;
+}
+
 #footer{
     font-family: 'Inter', sans-serif;
     font-weight: bolder;
