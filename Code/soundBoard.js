@@ -12,6 +12,7 @@ const tarkibi = new Audio(path + "tarkibi");
 const wth = new Audio(path + "wth.mp3");
 const resetButton = document.querySelector('.reset');
 
+var audiosArray = [android, augghh, slowAugh, hellNah, nokia, omgb, ohio, shutcho, slipping, tarkibi, wth];
 
 document.getElementsByClassName("android")[0].addEventListener("click", function(){
     android.play();
@@ -58,6 +59,24 @@ document.getElementsByClassName("wth")[0].addEventListener("click", function(){
     wth.play();
 });
 
+function resetSound(item){
+    item.pause()
+    // item.currentTime = 0;
+}
+
 resetButton.addEventListener('click', function() { //Stop all (Refreshes the page)
-    location.reload();
+    // location.reload();
+    // resetSound(android);
+    // resetSound(augghh);
+    // resetSound(hellNah);
+    // resetSound(nokia);
+    // resetSound(ohio);
+    // resetSound(omgb);
+    // resetSound(shutcho);
+    // resetSound(slipping);
+    // resetSound(slowAugh);
+    // resetSound(wth);
+    for (var i of audiosArray){
+        resetSound(i);
+    }
   });
