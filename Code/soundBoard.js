@@ -61,7 +61,7 @@ document.getElementsByClassName("wth")[0].addEventListener("click", function(){
 
 function resetSound(item){
     item.pause()
-    // item.currentTime = 0;
+    item.currentTime = 0;
 }
 
 resetButton.addEventListener('click', function() { //Stop all (Refreshes the page)
