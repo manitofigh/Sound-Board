@@ -1,4 +1,4 @@
-var path = "../Sounds/";
+var path = "Sounds/";
 const android = new Audio(path + "android.mp3");
 const augghh = new Audio(path + "augghh.mp3");
 const slowAugh = new Audio (path + "slowAugh.mp3")
