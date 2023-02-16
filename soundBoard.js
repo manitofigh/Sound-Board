@@ -19,15 +19,6 @@ document.getElementsByClassName("android")[0].addEventListener("click", function
 });
 
 document.getElementsByClassName("augghh")[0].addEventListener("click", function(){
-    // var chance = Math.round(Math.random());
-    // if (chance == 0){
-    //     augghh.play();
-    //     console.log(chance);
-    // }
-    // else{
-    //     slowAugh.play();
-    //     console.log(chance);
-    // }
     slowAugh.play();
 });
 
