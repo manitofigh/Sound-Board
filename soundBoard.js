@@ -9,14 +9,14 @@ function resetSound(item){
     item.pause();
     item.currentTime = 0;
 }
-
+ 
 for (var i = 0; i < buttonCount ; i++){
     document.querySelectorAll(".sound-buttons")[i].addEventListener("click", function(){
         var audioName = this.classList[1];
-        var audioToPlay = audioArray.find(a => a.src.includes(audioName));
-        if (!audioToPlay) {
+        var audioToPlay = audioArray.find(a => a.src.includes(audioName)); // Checks to see if sound exists
+        if (!audioToPlay) { // If it doesn't, make a new sound for it.
             audioToPlay = new Audio(path + audioName + ".mp3");
-            audioArray.push(audioToPlay);
+            audioArray.push(audioToPlay); // Add it to the array of sounds.
         }
         resetSound(audioToPlay);
         audioToPlay.play();
