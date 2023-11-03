@@ -1,3 +1,2 @@
-# Sound-Board
-
-Open the soundHome.html file in your browser and enjoy.
+User soundHome.html. 
+Don't move other files around after unzipping/cloning
